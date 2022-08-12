@@ -35,11 +35,11 @@
                   Lorem ipsum
                 </p>
                 <div class="price-quantity">
-                  <h2> 6,000</h2>
+                  <h2 class="cart-price"> 6000</h2>
                   <div class="buttons">
                     <button><i class='fas fa-minus' style="color: red;"></i></button>
 
-                    <input class="cart-quantity-input" type="number" value="0">
+                    <input class="cart-quantity-input" type="number" value="2">
                     <!-- <button><i class='fas fa-plus' style="color: green;"></i></button>  -->
 
                   </div>
@@ -54,13 +54,11 @@
                   Lorem ipsum
                 </p>
                 <div class="price-quantity">
-                  <h2> 6,000</h2>
+                  <h2 class="cart-price"> 6000</h2>
                   <div class="buttons">
-                    <i class='fas fa-minus' style="color: red;"></i>
+                    <button><i class='fas fa-minus' style="color: red;"></i></button>
 
-                    <div class="quantity">0</div>
-                    <i class='fas fa-plus' style="color: green;"></i>
-
+                    <input class="cart-quantity-input" type="number" value="0">
                   </div>
                 </div>
               </div>
@@ -103,6 +101,12 @@
                 </div>
               </div>
             </div>
+
+            <div class="cart-total">
+              <strong class="cart-total-title">Total</strong>
+              <span class="cart-total-price">$39.97</span>
+            </div>
+          <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
 
            
           </div>
@@ -226,6 +230,6 @@
 
 
         </body>
-        <script src="/js/script.js"></script>
+        <script src="/js/script.js" async></script>
 
 </html>
