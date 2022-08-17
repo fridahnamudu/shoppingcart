@@ -13,6 +13,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: burlywood; */
+}
+body{
+    background-color: burlywood;
 }
 img{
     height: 300px;
@@ -26,7 +30,11 @@ h1{
     font-style: inherit;
     font-weight: bolder;
 }
-
+h2{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 #product1{
     text-align: center;
@@ -34,40 +42,40 @@ h1{
 }
 
 
-#product1 .pro{
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-bottom: 150px;
-    width: 250px;
+/* #product1 .pro{
+    /* margin-top: 10px; */
+    /* margin-left: 50px; */
+    /* margin-bottom: 150px; */
+    /* width: 250px;
     height: 500px;
     min-width: 250px;
     padding: 10px 12px;
-    border: 1px solid #cce7d0;
+    border: 1px solid #cce7d0; */
     /* border-radius: 40px; */
-    cursor: pointer;
-    background-color: whitesmoke;
+    /* cursor: pointer;
+    background-color: whitesmoke; */
     /* color:grey; */
     
-    box-shadow: 20px 20px 30px (0, 0, 0, rgba(0,0,0,0.2));
-    transition: 0.2s ease;
-}
+    /* box-shadow: 20px 20px 30px (0, 0, 0, rgba(0,0,0,0.2));
+    transition: 0.2s ease; */
+
 h4{
     font-size: 20px;
     color: gray;
 }
-#product1 .pro:hover{
+/* #product1 .pro:hover{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
-}
+} */
 
-#product1 .pro img{
-    border-radius: 20px;
-    margin-top: 50px;
+/* #product1 .pro img{ */
+    /* border-radius: 20px;
+    margin-top: 50px; */
     /* width: 100px; */
-    height: 50%;
-    width: 100%;
+    /* height: 50%;
+    width: 100%; */
     /* height: 50%; */
     /* border-radius: 30px; */
-}
+
 
 #product1 .pro .des span{
     color: burlywood;
@@ -216,4 +224,12 @@ button:hover{
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.75em;
+}
+table{
+    background-color: brown;
+
+}
+.table-hover{
+    background-color: brown;
+    color: whitesmoke;
 }
